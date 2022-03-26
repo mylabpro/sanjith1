@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Open+Sans:ital@1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box
+}
+
+body{
+    background-color: #353836;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+header {
+    padding: 0 15px;
+    background-color:black;
+    height:55px;
+    display:flex;
+    justify-content: space-between;
+
+}
+#brand{
+    font-weight:bold;
+    font-size:20px;
+    align-items: center;
+    display:flex
+}
+ul{
+    list-style: none;
+    height:100%;
+    align-items: center;
+    display:flex
+}
+
+ul a{
+    color:white
+}
+
+ul li{
+    padding:5px;
+    margin-left: 10px;
+}
+
+ul li:hover{
+    transform: scale(1.1);
+    transition: 3s;
+}
+
+#login,
+#signup{
+    border-radius : 5px;
+    padding: 5px, 8px
+}
+
+#login{
+    border:1px solid red;
+
+}
+
+#signup{
+    border: 1px solid blue;
+}
+@media (min-width: 900px) {
+    
+    
+    
+    
+.happenings{
+    max-width:1000px;
+    display:flex;
+    justify-content:space-between;
+    margin: 40px auto 0 auto
+    
+}
+    
+.happen{
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    flex-basis: 30%;
+ }
+
+#advantage{
+    max-width:1000px;
+    display:flex;
+    justify-content:space-between;
+    margin: 40px auto 0 auto
+
+}
+#adv{
+    padding:20px;
+    box-sizing:border-box;
+    margin-bottom:20px;
+    flex-basis:20%
+}
+#img{
+   width:1200px;
+   height:200px;
+   margin-left:35px
+}
+
+
+
+
+
+}
